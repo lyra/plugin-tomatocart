@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<definitions>
+		<!-- Module tile -->
+		<definition>
+			<key>payment_vads_title</key>
+			<value><![CDATA[PayZen]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_vads_method_title</key>
+			<value><![CDATA[PayZen]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_vads_description</key>
+			<value><![CDATA[Payment module PayZen version 1.2a compatible with gateway V2]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- enabled ? -->
+		<definition>
+			<key>module_payment_vads_status_title</key>
+			<value><![CDATA[* Enabled]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_status_desc</key>
+			<value><![CDATA[Enable this payment module]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- sort order -->
+		<definition>
+			<key>module_payment_vads_sort_order_title</key>
+			<value><![CDATA[Sort order]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_sort_order_desc</key>
+			<value><![CDATA[Display order on the payment choice page]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- zone -->
+		<definition>
+			<key>module_payment_vads_zone_title</key>
+			<value><![CDATA[Zone restriction]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_zone_desc</key>
+			<value><![CDATA[Allow this payment module only for restricted areas]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- site id -->
+		<definition>
+			<key>module_payment_vads_site_id_title</key>
+			<value><![CDATA[* Site id]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_site_id_desc</key>
+			<value><![CDATA[Your shop id]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- keys -->
+		<definition>
+			<key>module_payment_vads_key_test_title</key>
+			<value><![CDATA[Test key]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_key_test_desc</key>
+			<value><![CDATA[Certificate in test mode]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_key_prod_title</key>
+			<value><![CDATA[Production key]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_key_prod_desc</key>
+			<value><![CDATA[Certificate in production mode]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- ctx_mode -->
+		<definition>
+			<key>module_payment_vads_ctx_mode_title</key>
+			<value><![CDATA[* Context mode]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_ctx_mode_desc</key>
+			<value><![CDATA[TEST or PRODUCTION environment]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- platform url -->
+		<definition>
+			<key>module_payment_vads_platform_url_title</key>
+			<value><![CDATA[* Platform url]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_platform_url_desc</key>
+			<value><![CDATA[Url of the payment page]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Capture delay -->
+		<definition>
+			<key>module_payment_vads_capture_delay_title</key>
+			<value><![CDATA[Capture delay]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_capture_delay_desc</key>
+			<value><![CDATA[Days before payments' capture]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- validation mode -->
+		<definition>
+			<key>module_payment_vads_validation_mode_title</key>
+			<value><![CDATA[Validation mode]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_validation_mode_desc</key>
+			<value><![CDATA[Automatic or manual validation]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- cards -->
+		<definition>
+			<key>module_payment_vads_payment_cards_title</key>
+			<value><![CDATA[Payment cards]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_payment_cards_desc</key>
+			<value><![CDATA[Semicolon separated list of authorized cards type]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- language -->
+		<definition>
+			<key>module_payment_vads_language_title</key>
+			<value><![CDATA[Default language]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_language_desc</key>
+			<value><![CDATA[Code of the language used on the payment page when the client language is not supported.]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- available languages -->
+		<definition>
+			<key>module_payment_vads_available_languages_title</key>
+			<value><![CDATA[Available languages]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_available_languages_desc</key>
+			<value><![CDATA[Comma separated codes of available languages on the payment page.]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Shop name -->
+		<definition>
+			<key>module_payment_vads_shop_name_title</key>
+			<value><![CDATA[Shop name]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_shop_name_desc</key>
+			<value><![CDATA[Name displayed on the payment page]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Shop url -->
+		<definition>
+			<key>module_payment_vads_shop_url_title</key>
+			<value><![CDATA[Shop url]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_shop_url_desc</key>
+			<value><![CDATA[Url displayed on the payment page]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- redirect options -->
+		<definition>
+			<key>module_payment_vads_redirect_enabled_title</key>
+			<value><![CDATA[Redirection enabled]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_redirect_enabled_desc</key>
+			<value><![CDATA[Check to automatically redirect the client to your website at the end of the payment process]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_redirect_success_timeout_title</key>
+			<value><![CDATA[Redirection success timeout]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_redirect_success_timeout_desc</key>
+			<value><![CDATA[Seconds before redirection when the payment has succeeded]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_redirect_success_message_title</key>
+			<value><![CDATA[Redirection success message]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_redirect_success_message_desc</key>
+			<value><![CDATA[Message to display before redirection when the payment has succeeded]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_redirect_error_timeout_title</key>
+			<value><![CDATA[Redirection failure timeout]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_redirect_error_timeout_desc</key>
+			<value><![CDATA[Seconds before redirection when the payment has failed]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_redirect_error_message_title</key>
+			<value><![CDATA[Redirection failure message]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_redirect_error_message_desc</key>
+			<value><![CDATA[Message to display before redirection when the payment has failed]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Return mode -->
+		<definition>
+			<key>module_payment_vads_return_mode_title</key>
+			<value><![CDATA[Return mode]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_return_mode_desc</key>
+			<value><![CDATA[Http method used by the client to transmit the payment result]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Return GET params -->
+		<definition>
+			<key>module_payment_vads_return_get_params_title</key>
+			<value><![CDATA[Additional GET parameters]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_return_get_params_desc</key>
+			<value><![CDATA[Additional parameters sent on return in GET mode]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Return POST params -->
+		<definition>
+			<key>module_payment_vads_return_post_params_title</key>
+			<value><![CDATA[Additional POST parameters]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_return_post_params_desc</key>
+			<value><![CDATA[Additional parameters sent on return in POST mode]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Success url -->
+		<definition>
+			<key>module_payment_vads_url_success_title</key>
+			<value><![CDATA[Success url]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_url_success_desc</key>
+			<value><![CDATA[Url the client will be redirected to after a successful payment]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Return url -->
+		<definition>
+			<key>module_payment_vads_url_return_title</key>
+			<value><![CDATA[Return url]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_url_return_desc</key>
+			<value><![CDATA[Url the client will be redirected to at the end of the payment process]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Check url -->
+		<definition>
+			<key>module_payment_vads_url_check_title</key>
+			<value><![CDATA[Check url to copy in your PayZen back office]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_url_check_desc</key>
+			<value><![CDATA[Url used for automatic confirmation of payment, provided here for convenience. Copy/paste it in your PayZen backoffice.]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- accepted order status -->
+		<definition>
+			<key>module_payment_vads_order_status_id_title</key>
+			<value><![CDATA[Accepted order status]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_order_status_id_desc</key>
+			<value><![CDATA[Status of order when the payment was successful]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Genders to title -->
+		<definition>
+			<key>module_payment_vads_gender_m</key>
+			<value><![CDATA[Mr]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>module_payment_vads_gender_f</key>
+			<value><![CDATA[Ms]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Error message -->
+		<definition>
+			<key>module_payment_vads_form_error</key>
+			<value><![CDATA[Payment form error :]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Failure notification error message -->
+		<definition>
+			<key>failure_notification_on_registered_order</key>
+			<value><![CDATA[Received failure notification for a registered order :]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Check url test warning message -->
+		<definition>
+			<key>module_payment_vads_check_url_warning</key>
+			<value><![CDATA[TEST mode warning : the order has been registered, but automatic confirmation failed. Verify your check url settings.]]></value>
+			<group>modules-payment</group>
+		</definition>
+
+		<!-- Order not found error message -->
+		<definition>
+			<key>module_payment_vads_order_not_found</key>
+			<value><![CDATA[Payment confirmation failed : order not found.]]></value>
+			<group>modules-payment</group>
+		</definition>
+	</definitions>
+</language>
